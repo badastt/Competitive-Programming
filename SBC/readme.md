@@ -4,12 +4,12 @@
 # 2015
 
 ### First Phase
-- [ ] [1931](https://judge.beecrowd.com/en/problems/view/1931) - Mania de Par
+- [X] [1931](https://judge.beecrowd.com/en/problems/view/1931) - Mania de Par - Graph (Dijkstra Variant): 3.5
 - [ ] [1932](https://judge.beecrowd.com/en/problems/view/1932) - Bolsa de Valores
-- [X] [1933](https://judge.beecrowd.com/en/problems/view/1933) - Tri-du - None: 0
+- [X] [1933](https://judge.beecrowd.com/en/problems/view/1933) - Tri-du - None: 0.5
 - [ ] [1934](https://judge.beecrowd.com/en/problems/view/1934) - Quebra-cabeça
 - [ ] [1935](https://judge.beecrowd.com/en/problems/view/1935) - Espiral
-- [ ] [1936](https://judge.beecrowd.com/en/problems/view/1936) - Fatorial
+- [X] [1936](https://judge.beecrowd.com/en/problems/view/1936) - Fatorial - Greedy: 1.0
 - [ ] [1937](https://judge.beecrowd.com/en/problems/view/1937) - Guardiões Curiosos
 - [ ] [1938](https://judge.beecrowd.com/en/problems/view/1938) - Praça do Retângulo
 - [ ] [1939](https://judge.beecrowd.com/en/problems/view/1939) - Ominobox

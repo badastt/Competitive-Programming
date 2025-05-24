@@ -19,7 +19,6 @@ using namespace std;
 #define mul_mod(a, b, m) (((a % m) * (b % m)) % m)
 #define fo(i, k, n) for (ll i = k; k < n ? i < n : i > n; k < n ? i += 1 : i -= 1)
 #define clr(x) memset(x, 0, sizeof(x))
-bool prime(ll a) { if (a==1) return 0; for (int i=2;i<=round(sqrt(a));++i) if (a%i==0) return 0; return 1; }
 
 /* DEBUG */
 #define debug(x) cout << #x << ": " << (x) << "\n";
@@ -28,7 +27,6 @@ void debug_v(vector<T> &v) { cout << "{"; for (auto x : v) cout << x << ", "; co
 
 /* UTILS */
 #define MOD 1000000007
-const int MAX_N = 1e5 + 5;
 #define pb push_back
 #define ppb pop_back
 #define mp make_pair
@@ -43,4 +41,28 @@ int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
+	
+	int size = 0;
+    string s1, s2;
+
+    cin >> size >> s1 >> s2;
+
+    double total = 0;
+    double nColapso = 0;
+	
+    for (int i = 0; i < size; i++)
+    {
+        if (s1[i] == '*')
+            total += 1;
+        if (s2[i] == '*')
+            nColapso += 1;
+    }
+
+    double colapso = total - nColapso;
+
+    double taxa = colapso / total;
+	
+	printf ("%.2f\n", taxa);
+
+    return 0;
 }

@@ -7,7 +7,6 @@ using namespace std;
 #define pll pair<long long, long long>
 #define vi vector<int>
 #define vll vector<long long>
-#define vpi vector<pii>
 #define mii map<int, int>
 #define si set<int>
 #define sc set<char>
@@ -19,7 +18,6 @@ using namespace std;
 #define mul_mod(a, b, m) (((a % m) * (b % m)) % m)
 #define fo(i, k, n) for (ll i = k; k < n ? i < n : i > n; k < n ? i += 1 : i -= 1)
 #define clr(x) memset(x, 0, sizeof(x))
-bool prime(ll a) { if (a==1) return 0; for (int i=2;i<=round(sqrt(a));++i) if (a%i==0) return 0; return 1; }
 
 /* DEBUG */
 #define debug(x) cout << #x << ": " << (x) << "\n";
@@ -28,7 +26,6 @@ void debug_v(vector<T> &v) { cout << "{"; for (auto x : v) cout << x << ", "; co
 
 /* UTILS */
 #define MOD 1000000007
-const int MAX_N = 1e5 + 5;
 #define pb push_back
 #define ppb pop_back
 #define mp make_pair
